@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPayments.Sandbox.API", "OpenPayments.Sandbox.API\OpenPayments.Sandbox.API.csproj", "{522D2485-D557-4566-BEF8-1B5DA31004F7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OpenPayments.Sandbox.Core", "OpenPayments.Sandbox.Core\OpenPayments.Sandbox.Core.fsproj", "{139246B3-6700-492C-B043-F1887E8B62A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPayments.Sandbox.AppHost", "OpenPayments.Sandbox.AppHost\OpenPayments.Sandbox.AppHost.csproj", "{CDF2AD70-E43C-4E96-A508-C737B34086CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPayments.Sandbox.ServiceDefaults", "OpenPayments.Sandbox.ServiceDefaults\OpenPayments.Sandbox.ServiceDefaults.csproj", "{88FC1672-2686-4B91-88A0-924D06627BD9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OpenPayments.Sandbox.Infrastructure", "OpenPayments.Sandbox.Infrastructure\OpenPayments.Sandbox.Infrastructure.fsproj", "{3B44A419-5E7A-4C3A-BF57-D9A2F2779D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenPayments.Sandbox.Shared", "OpenPayments.Sandbox.Shared\OpenPayments.Sandbox.Shared.csproj", "{B76C1927-3155-47FD-ABF3-314AE840C670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{522D2485-D557-4566-BEF8-1B5DA31004F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522D2485-D557-4566-BEF8-1B5DA31004F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522D2485-D557-4566-BEF8-1B5DA31004F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522D2485-D557-4566-BEF8-1B5DA31004F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139246B3-6700-492C-B043-F1887E8B62A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139246B3-6700-492C-B043-F1887E8B62A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139246B3-6700-492C-B043-F1887E8B62A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139246B3-6700-492C-B043-F1887E8B62A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF2AD70-E43C-4E96-A508-C737B34086CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF2AD70-E43C-4E96-A508-C737B34086CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF2AD70-E43C-4E96-A508-C737B34086CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF2AD70-E43C-4E96-A508-C737B34086CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FC1672-2686-4B91-88A0-924D06627BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FC1672-2686-4B91-88A0-924D06627BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FC1672-2686-4B91-88A0-924D06627BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FC1672-2686-4B91-88A0-924D06627BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B44A419-5E7A-4C3A-BF57-D9A2F2779D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B44A419-5E7A-4C3A-BF57-D9A2F2779D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B44A419-5E7A-4C3A-BF57-D9A2F2779D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B44A419-5E7A-4C3A-BF57-D9A2F2779D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76C1927-3155-47FD-ABF3-314AE840C670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76C1927-3155-47FD-ABF3-314AE840C670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76C1927-3155-47FD-ABF3-314AE840C670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76C1927-3155-47FD-ABF3-314AE840C670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
